@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(10, 8, 45);
+}
+#tlt{
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#detail{
+    border: 3.5px solid green;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sbt{
+    height: 40px;
+    width: 22%;
+    margin: 3% 35%;
+    font-size: 20px;
+    border-radius: 9px;
+    color: #fff;
+    background-color: rgb(9, 121, 9);
+}
+.naming{
+    display: inline-block;
+    width: 22%;
+    font-size: 22px;
+    margin: 12px 10px;
+    color: #fff;
+}
+.sizing{
+    color: black;
+    display: inline-block;
+    width: 85px;
+}
+
+.i_p{
+    height: 25px;
+    width: 22%;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#t-tlt{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 60%;
+  }
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.action{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+th{
+    background-color: rgb(1, 1, 1);
+    font-weight: bolder;
+    color: #fff;
+}
+td{
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.edit{
+    background-color: rgb(221, 155, 13);
+    border-radius: 7px;
+    height: 30px;
+    width: 45px;
+}
+.delete{
+    border-radius: 7px;
+    height: 30px;
+    width: 53px;
+    color: #fff;
+    background-color: red;
+}
+.update{
+    height: 30px;
+    width: 15%;
+     margin-left: -30px;
+     margin-right: 50px; 
+    font-size: 15px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(9, 121, 9);
+}
+
+/* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 500px;
+    bottom: 80px;
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    width: 430px;
+    height: 410px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input{
+    width: 55%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .center{
+    text-align: center;
+  }
+  label{
+    display: inline-block;
+    width: 120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

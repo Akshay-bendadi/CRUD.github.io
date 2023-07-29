@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body onload="readData()">
+    
+  <h1 id="tlt">CRUD OPERATION</h1>
+  
+    <div id="detail">
+       <span class="naming">Name</span>
+       <input id="name" class="i_p" placeholder="Enter Name" type="text" required>
+       <span class="naming">Email</span>
+       <input id="email" class="i_p" placeholder="Enter Email" required="email" type="text" required>
+       <span class="naming" >Phone  No.</span>
+       <input id="phone" class="i_p" placeholder="Enter Phone No"  type="text" required >
+       <span class="naming">City</span>
+       <input id="city" class="i_p" placeholder="Enter City" type="text" required>
+       <button class="sbt" onclick="submit()">Submit</button>
+    </div>
+
+  <h3 id="t-tlt">CRUD INSERTED DATA</h3>
+    <table>
+        <thead >
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone No.</th>
+          <th>City</th>
+          <th class="action">Action</th>
+        </thead>
+        
+        <tbody class="data_table">
+
+        </tbody>
+    </table> 
+
+    <div class="form-popup" id="myForm">
+
+        <form class="form-container">
+          <h1 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Update Credentials</h1>
+          <input type="text" id="id" hidden/>
+          <label><b>Name</b></label>
+          <input type="text" placeholder="Update Name" id="e_name" name="name" required>
+          <br>
+          <label><b>Email</b></label>
+          <input type="text" placeholder="Update Email" id="e_email" name="email" required>
+          <br>
+          <label><b>Phone No</b></label>
+          <input type="tel" placeholder="Update phone No" id="e_phone" name="number" required>
+          <br>
+          <label><b>City</b></label>
+          <input type="text" placeholder="Update City" id="e_city" name="city" required>
+          <br>
+          <div class="center">
+            <button type="button" class="update" onclick="update()">Update</button>
+            <button type="button" class="delete" onclick="closeForm()">Close</button>
+          </div>
+        </form>
+      
+      </div>
+    
+    
+      <script src="index.js"></script>
+</body>
+</html>
